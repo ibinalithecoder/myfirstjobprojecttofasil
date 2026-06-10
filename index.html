@@ -359,11 +359,9 @@ target="_blank">
 
 
 
-<div class="social-container">
+<!-- <div class="social-container">
     <div class="main-btnmedia">
-        <i class="fa-solid fa-share-nodes">
-          
-        </i>
+        <i class="fa-solid fa-share-nodes"></i>
     </div>
 
     <a href="https://wa.me/919539756061?text=Hello...%0A%20AL%20BIDAYA%20DOCUMENT%20CLEARING%2C%20I%20need%20more%20details%20about%20your%20services." class="social whatsapp" target="_self">
@@ -377,7 +375,28 @@ target="_blank">
     <a href="tel:+919539756061" class="social phone">
       <i class="fas fa-phone"></i>
     </a>
-</div> 
+</div>  -->
+
+
+
+
+<div class="social-container" id="socialContainer">
+    <div class="main-btnmedia" id="shareBtn">
+        <i class="fa-solid fa-share-nodes"></i>
+    </div>
+
+    <a href="https://wa.me/919539756061?text=Hello..." class="social whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="https://www.instagram.com/_junaid_ibnali_/" class="social instagram" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="tel:+919539756061" class="social phone">
+        <i class="fas fa-phone"></i>
+    </a>
+</div>
 
   <!-- Footer -->
   <footer>
@@ -448,6 +467,16 @@ target="_blank">
   </script>
 
   <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <!-- share button -->
+      <script>
+    const shareBtn = document.getElementById("shareBtn");
+    const socialContainer = document.getElementById("socialContainer");
+
+    shareBtn.addEventListener("click", () => {
+        socialContainer.classList.toggle("active");
+    });
+    </script>
 
 </body>
 </html>
