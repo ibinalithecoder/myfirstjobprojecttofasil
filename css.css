@@ -296,7 +296,7 @@
     }
 
 
-    /* .whatsapp-float{
+     /* .whatsapp-float{
 position:fixed;
 bottom:20px;
 right:20px;
@@ -330,9 +330,9 @@ font-size:30px;
 text-decoration:none;
 z-index:999;
 box-shadow:0 10px 25px rgba(0,0,0,0.2);
-} */
+}
 
-/* .instagram img{
+ .instagram img{
     width:50px;
     height:50px;
 }
@@ -393,12 +393,12 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);
     right: 58px;
     bottom: 38px;
     opacity: 1;
-} */
+}  */
 
 
+/* THIS THE LAST */
 
-
-.social-container{
+ .social-container{
     position: fixed;
     right: 30px;
     bottom: 30px;
@@ -459,44 +459,5 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);
 .social-container:hover .phone{
     bottom: 205px;
     opacity: 1;
-}
+} 
 
-
-@media(max-width:576px){
-
-    .social-container{
-        right:15px;
-        bottom:15px;
-    }
-
-    .main-btnmedia{
-        width:55px;
-        height:55px;
-        font-size:20px;
-    }
-
-    .social{
-        width:48px;
-        height:48px;
-        font-size:18px;
-    }
-
-    /* Instagram hide */
-
-    .instagram{
-        display:block;
-    }
-
-    /* WhatsApp */
-
-    .whatsapp{
-        bottom:65px;
-    }
-
-    /* Call */
-
-    .phone{
-        bottom:120px;
-    }
-
-}
