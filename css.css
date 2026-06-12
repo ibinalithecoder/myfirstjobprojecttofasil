@@ -114,6 +114,18 @@
       color: white;
       text-align: center;
       } 
+
+      .hero h1 {
+      font-size: 10px;
+      font-weight: 700;
+      animation: fadeDown 1.2s ease;
+    }
+
+    .hero p {
+      font-size: 10px;
+      margin-top: 20px;
+      animation: fadeUp 1.4s ease;
+    }
     }
 
 
